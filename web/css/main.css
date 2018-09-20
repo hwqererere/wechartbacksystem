@@ -1,0 +1,19 @@
+.login-box{width:400px;height:200px;float:left;margin-left:calc(50% - 200px);margin-top:10%;border:1px solid #0097CF;border-radius:10px;}
+.login-box label{width:100%;flaot:left;height:40px;margin-top:15px;}
+.login-box input[type='text'],input[type='password']{border:1px solid #0097CF;height:40px;border-radius:10px;width:90%;flaot:left;margin-left:5%;text-indent:20px;}
+a:hover{color:#ff0000}
+.login-box button{color:#ffffff;background-color:#245580;cursor: pointer;border:0px;padding:10px 20px;width:100px;text-align: center;float:left;margin-left:calc(50% - 60px)}
+.login-box button:hover{background-color:#0097CF}
+
+.topbar{width:100%;float:left;height:30px;background-color:#0097CF;color:#ffffff;line-height: 30px;}
+.topbar a{float:right;text-decoration: none;color:#ffffff;margin-right:20px ;}
+
+.navbar{float:left;width:10%;position:fixed;top:30px;bottom:0px;left:0px;overflow-y: auto;border-right:1px solid #0097CF;}
+.navbar a{float:left;width:100%;height:30px;background-color:#ffffff;text-align: left;text-indent:1em;color:#008000;line-height:30px;text-decoration: none;border-bottom:1px solid #0097CF;}
+.navbar a:hover{background-color:#0097CF;color:#ffffff;}
+
+.main{position:fixed;top:30px;right:0px;left:calc(10% + 1px);bottom:0px;overflow-y:auto;}
+.main .maintab{float:left;width:96%;margin-left:2%;border-collapse: collapse;border:1px solid #0097CF;margin-top:5px;}
+.main .maintab thead td{background-color:#0097CF;color:#ffffff;text-align: center;vertical-align: middle;border:1px solid #0097CF;}
+.main .maintab tbody td{color:#0097CF;border:1px solid #0097CF;text-align: center;vertical-align: middle;line-height:26px; }
+.main .maintab a{color:#008000;text-decoration: none;}

@@ -1,0 +1,2 @@
+<a href="<?php echo Yii::$app->urlManager->createUrl(['index/index']);?>"><?php echo Yii::t('app', 'Dash Board');?></a>
+<a href="<?php echo Yii::$app->urlManager->createUrl(['rooter/index']);?>"><?php echo Yii::t('app', 'Rooter Manage');?></a>
